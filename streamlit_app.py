@@ -1,6 +1,6 @@
 
 import pip
-failed = pip.main(["install", sklearn, streamlit, pandas, numpy, matplotlib, keras, pickle])
+failed = pip.main(["install", sklearn])
 
 from sklearn.utils import shuffle
 from io import BytesIO
