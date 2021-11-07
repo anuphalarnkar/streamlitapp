@@ -1,4 +1,4 @@
-pip install sklearn
+!pip install sklearn
 
 from sklearn.utils import shuffle
 from io import BytesIO
