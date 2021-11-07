@@ -1,4 +1,6 @@
-!pip install sklearn
+
+import pip
+failed = pip.main(["install", sklearn, streamlit, pandas, numpy, matplotlib, keras, pickle])
 
 from sklearn.utils import shuffle
 from io import BytesIO
