@@ -1,6 +1,6 @@
 
 import pip
-failed = pip.main(["install", sklearn])
+failed = pip.main(["install", scikit-learn])
 
 from sklearn.utils import shuffle
 from io import BytesIO
